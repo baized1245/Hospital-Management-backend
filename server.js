@@ -9,5 +9,5 @@ cloudinary.v2.config({
 });
 
 app.listen(process.env.PORT, () => {
-  console.log(`Server listen on port ${5000}`);
+  console.log(`Server listen on port ${process.env.PORT}`);
 });
